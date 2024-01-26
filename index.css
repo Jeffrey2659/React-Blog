@@ -1,0 +1,69 @@
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  top: 0;
+  position: fixed;
+
+  z-index: 1;
+  width: 100%;
+  height: 100px;
+}
+
+
+
+.comments{
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  
+  flex: 1;
+}
+.posts{
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+
+}
+.users{
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+ 
+}
+
+.table-container{
+  
+ 
+  align-items: center;
+  justify-content: center;
+ 
+  margin-top: 150px;
+}
